@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>UIComponents.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>UIPresentation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>FA5841971EDE7BE4009B9F94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5841B11EDE7C76009B9F94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5841C31EDE7C8B009B9F94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
