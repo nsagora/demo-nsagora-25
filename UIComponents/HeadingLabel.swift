@@ -9,5 +9,12 @@
 import Foundation
 
 public class HeadingLabel: UILabel {
-    
+ 
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        text = text?.uppercased()
+        textColor = .primaryText
+        font = UIFont.systemFont(ofSize: 32, weight: UIFontWeightRegular)
+    }
 }

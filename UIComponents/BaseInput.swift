@@ -22,4 +22,11 @@ public class BaseInput: UIView {
         super.init(frame: frame)
         loadFromNib()
     }
+    
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        textField.textColor = .inputText
+        textField.font = UIFont.systemFont(ofSize: 17, weight: UIFontWeightLight)
+    }
 }

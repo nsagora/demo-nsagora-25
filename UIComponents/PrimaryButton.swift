@@ -10,4 +10,12 @@ import Foundation
 
 public class PrimaryButton: UIButton {
     
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightBold)
+        titleLabel?.textColor = .white
+        backgroundColor = .primary
+        layer.cornerRadius = frame.size.height/2
+    }
 }

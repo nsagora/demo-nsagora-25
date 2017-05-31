@@ -21,4 +21,12 @@ extension UIColor {
     public static var inputBorder:UIColor {
         return #colorLiteral(red: 0.8117647059, green: 0.8156862745, blue: 0.8196078431, alpha: 1)
     }
+    
+    public static var inputText:UIColor {
+        return #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+    }
+    
+    public static var primaryText:UIColor {
+        return #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+    }
 }

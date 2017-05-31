@@ -10,5 +10,10 @@ import Foundation
 
 public class SmallLabel:UILabel {
     
-    
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        textColor = .primaryText
+        font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightLight)
+    }
 }

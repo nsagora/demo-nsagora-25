@@ -9,5 +9,12 @@
 import Foundation
 
 public class TitleLabel: UILabel {
-    
+ 
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        text = text?.uppercased()
+        textColor = .primaryText
+        font = UIFont.systemFont(ofSize: 24, weight: UIFontWeightThin)
+    }
 }
