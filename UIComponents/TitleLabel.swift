@@ -8,6 +8,7 @@
 
 import Foundation
 
+@IBDesignable
 public class TitleLabel: UILabel {
  
     public override func layoutSubviews() {

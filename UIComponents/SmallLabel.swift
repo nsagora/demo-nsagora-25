@@ -8,6 +8,7 @@
 
 import Foundation
 
+@IBDesignable
 public class SmallLabel:UILabel {
     
     public override func layoutSubviews() {

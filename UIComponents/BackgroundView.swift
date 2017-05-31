@@ -8,8 +8,10 @@
 
 import Foundation
 
+@IBDesignable
 public class BackgroundView: UIView {
  
+    @IBInspectable
     public var borderColor:UIColor = .inputBorder {
         didSet { refreshLayout() }
     }

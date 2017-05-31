@@ -35,40 +35,40 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y96-5n-0Vq" customClass="TitleLabel" customModule="UIComponents">
-                                                <rect key="frame" x="40" y="243" width="295" height="21"/>
+                                                <rect key="frame" x="40" y="243" width="295" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMr-fg-gMz" customClass="EmailInput" customModule="UIComponents">
-                                                <rect key="frame" x="40" y="284" width="295" height="50"/>
+                                                <rect key="frame" x="40" y="292" width="295" height="50"/>
                                                 <color key="backgroundColor" red="0.95113812509999995" green="0.95113812509999995" blue="0.95113812509999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="8In-XK-gG5"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVR-lF-rM5" customClass="PasswordInput" customModule="UIComponents">
-                                                <rect key="frame" x="40" y="354" width="295" height="50"/>
+                                                <rect key="frame" x="40" y="362" width="295" height="50"/>
                                                 <color key="backgroundColor" red="0.95113812509999995" green="0.95113812509999995" blue="0.95113812509999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="HAp-S0-cKG"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrJ-tJ-Gqd" customClass="PrimaryButton" customModule="UIComponents">
-                                                <rect key="frame" x="40" y="464" width="295" height="50"/>
+                                                <rect key="frame" x="40" y="472" width="295" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="CNr-cE-fZn"/>
                                                 </constraints>
                                                 <state key="normal" title="Sign in"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IP-GO-Qvf" customClass="SmallLabel" customModule="UIComponents">
-                                                <rect key="frame" x="40" y="590" width="295" height="21"/>
+                                                <rect key="frame" x="40" y="595" width="295" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0XX-59-FGk" customClass="SmallButton" customModule="UIComponents">
-                                                <rect key="frame" x="162" y="609" width="52" height="30"/>
+                                                <rect key="frame" x="163.5" y="610" width="49" height="29"/>
                                                 <state key="normal" title="Sign up"/>
                                             </button>
                                         </subviews>

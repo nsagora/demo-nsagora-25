@@ -8,6 +8,7 @@
 
 import Foundation
 
+@IBDesignable
 public class PasswordInput:BaseInput {
  
     public var password:String {

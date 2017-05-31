@@ -8,6 +8,7 @@
 
 import Foundation
 
+@IBDesignable
 public class EmailInput:BaseInput {
     
     public var email:String {
